@@ -14,8 +14,6 @@ document.getElementById("submit0").addEventListener("click", function () {
     .then(data => {
 
       console.log(data.name);
-
-      let div = document.getElementById("mainContent")
           
       let p0 = document.getElementById("textInfo0")
       let p1 = document.getElementById("textInfo1")
@@ -26,8 +24,6 @@ document.getElementById("submit0").addEventListener("click", function () {
       p1.innerText = ``
       p2.innerText = ``
       p3.innerText = ``
-
-      div.appendChild(p0)
             
     })
 
