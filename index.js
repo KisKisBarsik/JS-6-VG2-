@@ -7,6 +7,9 @@ document.getElementById("submit0").addEventListener("click", function () {
 
   let myAPI = `https://api.openweathermap.org/data/2.5/weather?q=${city_name},${country_code}&appid=${myKey}`
 
+  let div = document.getElementById("mainContent")
+
+  div.style.display = "flex"
 
   fetch(myAPI)
 
