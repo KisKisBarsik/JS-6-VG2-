@@ -160,7 +160,7 @@ h1 {
 
 
 
-#textInfo0 {
+#textInfo0, #textInfo2 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -168,23 +168,7 @@ h1 {
     padding: 15px 0px 0px 0px;
 }
 
-#textInfo1 {
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-
-    padding: 15px 0px 0px 0px;
-}
-
-#textInfo2 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-
-    padding: 15px 0px 0px 0px;
-}
-
-#textInfo3 {
+#textInfo1, #textInfo3 {
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
