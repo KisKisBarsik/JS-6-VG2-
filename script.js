@@ -10,7 +10,32 @@ document.getElementById("submit0").addEventListener("click", function () {
 
   let div = document.getElementById("mainContent")
 
-  div.style.display = "flex"
+  if (city_name && country_code) {
+
+    div.style.display = "flex"
+        
+  } else if (city_name) {
+
+    alert("Fill in the field with country code")
+
+    div.style.display = "none"
+
+  } else if (country_code) {
+        
+    alert("Fill in the field with city name")
+
+    div.style.display = "none"
+
+  } else {
+
+    alert("Fill in the field with city name and country code")
+
+    div.style.display = "none"
+
+  }
+
+  document.getElementById("input0").value = ''
+  document.getElementById("input1").value = ''
 
   fetch(myAPI)
 
