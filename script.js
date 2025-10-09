@@ -34,9 +34,6 @@ document.getElementById("submit0").addEventListener("click", function () {
 
   }
 
-  document.getElementById("input0").value = ''
-  document.getElementById("input1").value = ''
-
   fetch(myAPI)
 
     .then(response => response.json())
@@ -59,6 +56,9 @@ document.getElementById("submit0").addEventListener("click", function () {
       p3.innerText = `${minTemp} ° C / ${maxTemp} ° C`
             
     })
+
+  document.getElementById("input0").value = ''
+  document.getElementById("input1").value = ''
 
 })
 
