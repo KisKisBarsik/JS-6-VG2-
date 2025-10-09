@@ -66,7 +66,8 @@ document.getElementById("submit0").addEventListener("click", function () {
 
 
 
-// Enter funksjon
+// Enter funksjon for field #1
+
 var input = document.getElementById("input0")
 var submitBtn = document.getElementById("submit0")
 
@@ -80,6 +81,24 @@ input.addEventListener("keypress", function(event) {
     event.preventDefault();
 
     // Trigger the button element with a click
+    submitBtn.click();
+
+  }
+
+})
+
+
+// Enter funksjon for field #2
+
+var input = document.getElementById("input1")
+var submitBtn = document.getElementById("submit0")
+
+input.addEventListener("keypress", function(event) {
+
+  if (event.key === "Enter") {
+
+    event.preventDefault();
+
     submitBtn.click();
 
   }
