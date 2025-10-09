@@ -31,6 +31,11 @@ body {
 }
 
 .marginDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin-bottom: 150px;
 }
 
@@ -129,45 +134,62 @@ h1 {
 
 #mainContent {
     display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 660px;
+    height: 200px;
+
+    background: linear-gradient(45deg, rgba(0,0,0,0.5));
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+    margin: 0px 0px 70px 0px;
+}
+
+.divForText1 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin: 0px 0px 70px 0px;
+    margin: 0px 40px 0px 40px;
 }
 
 
 
 #textInfo0 {
-    font-size: 23px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 #textInfo1 {
-    font-size: 23px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 #textInfo2 {
-    font-size: 23px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 #textInfo3 {
-    font-size: 23px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 
